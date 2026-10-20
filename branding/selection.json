@@ -1,0 +1,8 @@
+{
+  "selectedOn": "2026-10-20",
+  "icon": "app-icon.png",
+  "designSource": "../designs/game-icon-v4-black-bomb.png",
+  "description": "黑色像素炸弹、饱和绿色迷宫、金色砖墙、橙色小怪与爆炸",
+  "web": "favicon and Apple touch icon; copied by tools/prepare-web-branding.mjs",
+  "wechat": "Account avatar is configured separately in the WeChat backend using the selected artwork."
+}

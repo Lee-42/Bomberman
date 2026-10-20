@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.1",
+  "importer": "ttf-font",
+  "imported": true,
+  "uuid": "82c20455-b005-4e05-8ec3-51c0301b5b1d",
+  "files": [
+    ".json",
+    "hud-pixel.ttf"
+  ],
+  "subMetas": {},
+  "userData": {}
+}

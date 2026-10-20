@@ -1,0 +1,20 @@
+Bomberman NES-BM-USA 原版研究资源
+
+参考工程及固定提交：
+https://github.com/emu-russia/bomberman-nes
+61b62c8d35e6972d5e11abeec876dfd558b7510d
+https://github.com/picosonic/bomberman-nes
+7fbe678062398f6ae438963721ca893ee61564ef
+
+两个项目构建出的 NES-BM-USA 内容经校验一致。
+图像来自 CHR 图块，角色组合方式、调色板与动画顺序来自原版程序表。
+声音通过 JSNES 2.0.0 执行原 6502 声音程序录制，运行时音乐另处理循环点。
+结局角色与地台使用原 CHR 和结局调色板；password-low/high.wav 为原密码输入寄存器提示音。
+
+仓库根目录 docs/reference-assets-manifest.json 保存最初资源提取阶段的提交、ROM / CHR 校验和及图像文件记录。
+该提取档案的部分限制属于当时记录；后续规则验证与当前版本范围见 docs/verification-status.md。
+可运行工程与构建方式见根目录 README.md。完整 NES ROM 与临时提取工作目录不随仓库提供。
+
+原版程序、图像、声音及名称的权利归各自权利人所有。
+提取时未在上游游戏仓库发现 LICENSE / COPYING 文件；公开可访问不代表取得素材或商业发行许可。
+本项目不对这些第三方素材授予新的许可，详见根目录 THIRD_PARTY_NOTICES.md。

@@ -1,0 +1,31 @@
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/node_modules/
+*.log
+/config/wechat.local.json
+
+.DS_Store
+.DS_Store.meta
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+project.private.config.json
+
+# Local session notes, screenshots, preview codes and generated reports.
+/工程说明.txt
+/verification/**
+
+# Golden vectors and ordinary-input replays are required by the test suite.
+!/verification/stage1/
+!/verification/stage1/original-vectors.json
+!/verification/stage1/playthrough.json
+!/verification/campaign/
+!/verification/campaign/original-vectors.json
+!/verification/finale/
+!/verification/finale/original-vectors.json
+!/verification/finale/command-playthrough.json

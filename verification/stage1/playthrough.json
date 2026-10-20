@@ -1,0 +1,345 @@
+{
+  "description": "Perfect-information automated core playthrough using ordinary movement and bomb commands. No invulnerability, enemy removal, map edits or clock skips.",
+  "seed": [
+    13,
+    37,
+    19,
+    53
+  ],
+  "skipIntro": true,
+  "complete": true,
+  "final": {
+    "phase": "complete",
+    "tick": 5062,
+    "lives": 3,
+    "score": 700,
+    "range": 1,
+    "time": 124
+  },
+  "commands": [
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 85
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 86
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 21
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "left"
+      },
+      "ticks": 21
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 22
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 22
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 128
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 85
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 86
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 171
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 85
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 21
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 2
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 21
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 171
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 2
+    },
+    {
+      "command": {
+        "direction": "left"
+      },
+      "ticks": 85
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "left"
+      },
+      "ticks": 85
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {
+        "direction": "left"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "left"
+      },
+      "ticks": 170
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 2
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {
+        "direction": "up"
+      },
+      "ticks": 171
+    },
+    {
+      "command": {
+        "direction": "left"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {
+        "bomb": true
+      },
+      "ticks": 1
+    },
+    {
+      "command": {
+        "direction": "right"
+      },
+      "ticks": 43
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 42
+    },
+    {
+      "command": {},
+      "ticks": 230
+    },
+    {
+      "command": {
+        "direction": "down"
+      },
+      "ticks": 106
+    },
+    {
+      "command": {},
+      "ticks": 195
+    }
+  ]
+}

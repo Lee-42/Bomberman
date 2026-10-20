@@ -1,0 +1,268 @@
+{
+  "baseline": "Bomberman NES-BM-USA",
+  "purpose": "Private reverse-engineering research reference; not a commercial asset license",
+  "source": [
+    {
+      "url": "https://github.com/emu-russia/bomberman-nes",
+      "commit": "61b62c8d35e6972d5e11abeec876dfd558b7510d"
+    },
+    {
+      "url": "https://github.com/picosonic/bomberman-nes",
+      "commit": "7fbe678062398f6ae438963721ca893ee61564ef"
+    }
+  ],
+  "romSha256": "4e57f08754a2ff7ec788245629fb70f99d4e003f66f86742566bca99c810a244",
+  "chrSha256": "e580340c80c3baeed0314862945d61d277d867e4cc50dcc79c01737f7a471a03",
+  "sourceFiles": [
+    "BOMBER.CHR",
+    "BMAN.NAS",
+    "SOUND.NAS",
+    "picosonic/bman.asm",
+    "picosonic/sound.asm"
+  ],
+  "licenseStatus": "No LICENSE/COPYING found in the two game repositories; public availability does not grant commercial asset rights.",
+  "counts": {
+    "chrTiles": 512,
+    "backgroundMetatiles": 50,
+    "actorMetasprites": 62,
+    "enemyTypes": 8,
+    "musicCues": 10,
+    "soundEffects": 6,
+    "dpcmEffects": 1,
+    "stageConfigurations": 50
+  },
+  "verification": {
+    "allBitplanePixelsMatchIndependentEmulator": 32768,
+    "visualChecks": [
+      {
+        "kind": "background",
+        "id": 0,
+        "matchCount": 1580,
+        "examples": [
+          {
+            "x": 29,
+            "y": 48,
+            "opaquePixels": 256
+          },
+          {
+            "x": 30,
+            "y": 48,
+            "opaquePixels": 256
+          },
+          {
+            "x": 31,
+            "y": 48,
+            "opaquePixels": 256
+          },
+          {
+            "x": 32,
+            "y": 48,
+            "opaquePixels": 256
+          }
+        ]
+      },
+      {
+        "kind": "background",
+        "id": 1,
+        "matchCount": 49,
+        "examples": [
+          {
+            "x": 16,
+            "y": 32,
+            "opaquePixels": 256
+          },
+          {
+            "x": 32,
+            "y": 32,
+            "opaquePixels": 256
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "opaquePixels": 256
+          },
+          {
+            "x": 64,
+            "y": 32,
+            "opaquePixels": 256
+          }
+        ]
+      },
+      {
+        "kind": "background",
+        "id": 2,
+        "matchCount": 19,
+        "examples": [
+          {
+            "x": 96,
+            "y": 48,
+            "opaquePixels": 256
+          },
+          {
+            "x": 128,
+            "y": 48,
+            "opaquePixels": 256
+          },
+          {
+            "x": 144,
+            "y": 48,
+            "opaquePixels": 256
+          },
+          {
+            "x": 160,
+            "y": 48,
+            "opaquePixels": 256
+          }
+        ]
+      },
+      {
+        "kind": "actor",
+        "id": 0,
+        "matchCount": 1,
+        "examples": [
+          {
+            "x": 16,
+            "y": 48,
+            "opaquePixels": 119
+          }
+        ]
+      },
+      {
+        "kind": "actor",
+        "id": 24,
+        "matchCount": 3,
+        "examples": [
+          {
+            "x": 222,
+            "y": 80,
+            "opaquePixels": 170,
+            "flipX": true
+          },
+          {
+            "x": 144,
+            "y": 160,
+            "opaquePixels": 170,
+            "flipX": true
+          },
+          {
+            "x": 112,
+            "y": 178,
+            "opaquePixels": 170,
+            "flipX": true
+          }
+        ]
+      },
+      {
+        "kind": "actor",
+        "id": 25,
+        "matchCount": 0,
+        "examples": []
+      },
+      {
+        "kind": "actor",
+        "id": 26,
+        "matchCount": 0,
+        "examples": []
+      }
+    ],
+    "stageEnemySlotsVerified": 500,
+    "audioFiles": 17,
+    "allAudioFinite": true,
+    "clippedSamples": 0,
+    "limitations": [
+      "No Japanese ROM comparison",
+      "No full game playthrough",
+      "No perceptual audio review",
+      "Music previews are not loop-ready assets",
+      "Direct-register password-entry beeps are not included in these 17 cues",
+      "Fire timing and palette changes in special states require further gameplay checks"
+    ]
+  },
+  "files": [
+    {
+      "path": "images/actors-palette0.png",
+      "bytes": 3310,
+      "sha256": "bc94e17aeb7e3f8efc74bd6804c837694e727031c610be4f3e8157573a01e485"
+    },
+    {
+      "path": "images/actors-palette1.png",
+      "bytes": 3253,
+      "sha256": "2882400bf41ba49d724c2052ca2edd2ffb635c7c6f8182931106983af6ff28ac"
+    },
+    {
+      "path": "images/actors-palette2.png",
+      "bytes": 3270,
+      "sha256": "6230afe09550f7a82f7f7fde0bf238abdc1327932c4716287fefbb36656e46a5"
+    },
+    {
+      "path": "images/actors-palette3.png",
+      "bytes": 3260,
+      "sha256": "fa069b0890d2cb7f3627ce0da97cffcd43db5d8f3ab6cef8ac1ca1534e71cc92"
+    },
+    {
+      "path": "images/actors.png",
+      "bytes": 3430,
+      "sha256": "bf9dcd35496220f9f175348847b5298a21bd8def3bce4a2cf6e784f95ff494eb"
+    },
+    {
+      "path": "images/chr-bank0-palette0.png",
+      "bytes": 3375,
+      "sha256": "3df6f44e55e46c089ceba423d433c35670825f7da23d2adf517807d75de98dda"
+    },
+    {
+      "path": "images/chr-bank0-palette1.png",
+      "bytes": 3324,
+      "sha256": "7d783630ae3c44d1c27e86bf6449eaf4da5281bf23fed3e1fba79bbf0f4ac4ed"
+    },
+    {
+      "path": "images/chr-bank0-palette2.png",
+      "bytes": 3334,
+      "sha256": "8e15b3a533690fea4992a9877ddbda5eef3c86f5bcdc15ce56c4e11149c85f65"
+    },
+    {
+      "path": "images/chr-bank0-palette3.png",
+      "bytes": 3325,
+      "sha256": "57fe97190d1ac2949f19bc540b9a80ecff9bf5a4bbc1ae096833a3d674e726d8"
+    },
+    {
+      "path": "images/chr-bank1-palette0.png",
+      "bytes": 3647,
+      "sha256": "93b16ad287c37a3ac06cb1810ecc65e1f466fbc165f9aaddb2f11bed33b0fa77"
+    },
+    {
+      "path": "images/chr-bank1-palette1.png",
+      "bytes": 3602,
+      "sha256": "5440c45d7e3da2af1481d94ddd1a200e0416daf48277143d715fc4e089fcb4b2"
+    },
+    {
+      "path": "images/chr-bank1-palette2.png",
+      "bytes": 3564,
+      "sha256": "c1e247416aedd93a99f1b0c68a5071bcbf17850e09ce55201c299a74cb254dea"
+    },
+    {
+      "path": "images/chr-bank1-palette3.png",
+      "bytes": 3568,
+      "sha256": "bd93115276155ace10d9d4d5619339508b56c0f69ad866a954690eeda9156d16"
+    },
+    {
+      "path": "images/chr-indexed.png",
+      "bytes": 7014,
+      "sha256": "2d3650ef4b53d69972da423334e499a966938c49e838cda57a6d7ab7f04eead2"
+    },
+    {
+      "path": "images/metatiles.png",
+      "bytes": 2915,
+      "sha256": "e47eb44085e3c78fad6aae201977fbfdb89286ac7af22ffacd4d46c656063996"
+    },
+    {
+      "path": "images/stage1-us.png",
+      "bytes": 3123,
+      "sha256": "3a52c123a492a184240111ab4793a35497907deb8b9eea00e18ce84126b50b5e"
+    },
+    {
+      "path": "images/title-us.png",
+      "bytes": 4122,
+      "sha256": "f0b4e2455061f4aca902bd83aae64d0de76fbb937f675b1a2905d477e424e04c"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "maze-lab",
+  "uuid": "09fb2bb0-a20d-4798-a5f4-f9f4120db186",
+  "version": "0.5.1",
+  "creator": {
+    "version": "3.8.6"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build:web": "node tools/build.mjs web-desktop",
+    "build:wechat": "node tools/build.mjs wechatgame",
+    "start": "python3 -m http.server 8770 --bind 127.0.0.1 --directory build/web-desktop",
+    "verify:web": "node tools/verify-web.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
